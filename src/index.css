@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-outfit: 'Outfit', sans-serif;
+    --font-playfair: 'Playfair Display', sans-serif;
+}
+
+.text-colorfull {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(288deg, #ff8000, #f0c 53.2394%, #04f);
+    -webkit-background-clip: text;
+}
+
+.custom-shadow{
+box-shadow: inset 0 -20px 80px -20px #ffffff1f;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-50% - 8px));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform:translateX(calc(-50% - 8px));
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-infinite-scroll{
+  animation: marquee 20s linear infinite;
+}
+
+.animate-2{
+     animation: scroll 20s linear infinite;
+}
+
