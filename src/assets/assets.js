@@ -13,7 +13,7 @@ import next from "./nextjs-svgrepo-com.svg";
 import vercel from "./vercel-fill-svgrepo-com.svg";
 import shad from "./shadcn.png";
 import openChef from "./Open-Chef.png";
-import portfolio from "./portfolio-1.png";
+import portfolio from "./Portfolio-1.png";
 import digital from "./Digital.png";
 import twitter from "./icons8-x-50.png";
 import insta from "./icons8-instagram-logo-94.png";
