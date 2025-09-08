@@ -94,13 +94,7 @@ export const projects = [
     image: [portfolio],
     description:
       "Check out my projects. Contact me, Let's collaborate on amazing projects",
-  },
-  {
-    name: "Digital Hippo",
-    image: [digital],
-    description:
-      "A MarketPlace for high quality Digital Assets with great customer service",
-    link: "https://github.com/joschan21/digitalhippo",
+      link: "https://eniolaoyelami.vercel.app/",
   },
 ];
 
@@ -109,11 +103,6 @@ export const socials = [
     name: "Facebook",
     link: "https://web.facebook.com/enny.vibes/",
     icon: [facebook],
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/world_explorerig/",
-    icon: [insta],
   },
   {
     name: "X (Formerly Twitter)",

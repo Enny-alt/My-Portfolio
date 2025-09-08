@@ -18,7 +18,7 @@ const Hero = () => {
     
     
   return (
-    <div className="flex flex-col items-center justify-center py-20">
+    <div className="flex flex-col items-center justify-center px-3 py-20">
       <h1 className=" text-2xl sm:text-5xl sm:leading-16 text-center text-wrap sm:text-balance text-white font-extrabold">
         I Create Seamless Frontend Solutions
         For <span className="font-playfair italic text-colorfull"> Prospective Startups</span>

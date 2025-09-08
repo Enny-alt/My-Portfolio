@@ -68,7 +68,7 @@ const NavBar = () => {
           </button>
         </div>
         <div
-          className={`fixed top-0 right-0 h-full w-64 bg-neutral-900 backdrop-blur-lg border-l border-white/30 z-40 transform ${
+          className={`fixed top-0 right-0 h-full w-80 bg-neutral-900 backdrop-blur-lg border-l border-white/30 z-40 transform ${
             showMenu ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >

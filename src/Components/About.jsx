@@ -91,65 +91,41 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div className="custom-shadow col-span-7 rounded-lg lg:flex items-center justify-between gap-4 px-6 py-2">
-        <div className="relative mt-4 sm:mt-0">
-          <img
-            className=" w-full rounded-md my-8 opacity-30 hover:opacity-80 aspect-video object-cover"
-            src={lagos}
-            alt=""
-          />
-          <div className="absolute bottom-3 left-4">
-            <p className="text-xl font-bold">My Journey</p>
-            <p>All my experience in the tech space</p>
-          </div>
-        </div>
-        <div className="relative mt-4 sm:mt-0">
-          <img
-            className=" w-full rounded-md opacity-30 hover:opacity-80 transition-all duration-500 aspect-video object-cover"
-            src={skydive}
-            alt=""
-          />
-          <div className="absolute bottom-3 left-4">
-            <p className="text-xl font-bold">My Hobbies</p>
-            <p>What i like doing for fun</p>
-          </div>
-        </div>
-        <div className="basis-1/2">
-          <Link to={"/links"}>
-            <div className="custom-shadow bg-neutral-900 border border-white/40 px-3 py-1 my-8 rounded-md flex gap-4">
-              <div>
-                <RiLink />
-              </div>
-              <div className="text-nowrap cursor-pointer">
-                <p className="text-lg font-semibold">Link</p>
-                <p className="text-sm">All My Social Media Links</p>
-              </div>
-            </div>
-          </Link>
-          <a href="https://medium.com/@davidyvng13" target="_blank">
-            <div className="custom-shadow bg-neutral-900 border border-white/40 px-3 py-1 my-8 rounded-md flex gap-4">
-              <div>
-                <RiGitRepositoryLine />
-              </div>
-              <div className="text-nowrap cursor-pointer">
-                <p className="text-lg font-semibold">Blog</p>
-                <p className="text-sm">My blog posts</p>
-              </div>
-            </div>
-          </a>
 
-          <a href="https://www.youtube.com/@World_explorerYT" target="_blank">
-            <div className="custom-shadow bg-neutral-900 border border-white/40 px-3 py-1 my-8 rounded-md flex gap-4">
-              <div>
-                <RiYoutubeFill />
-              </div>
-              <div className="text-nowrap cursor-pointer">
-                <p className="text-lg font-semibold">Youtube Channel</p>
-                <p className="text-sm">My Youtube Channel</p>
-              </div>
+      <div className="md:flex justify-center align-center col-span-7 p-3 gap-20">
+        <Link to={"/links"}>
+          <div className="custom-shadow bg-neutral-900 text-colorfull border border-white/40 px-3 py-3 my-8 rounded-md flex gap-4">
+            <div>
+              <RiLink className="fill-white"/>
             </div>
-          </a>
+            <div className="text-nowrap cursor-pointer">
+            
+              <p className="text-sm">All My Social Media Links</p>
+            </div>
+          </div>
+        </Link>
+      {/* <a href="https://medium.com/@davidyvng13" target="_blank">
+        <div className="custom-shadow bg-neutral-900 border border-white/40 px-3 py-3 my-8 rounded-md flex gap-4">
+          <div>
+            <RiGitRepositoryLine />
+          </div>
+          <div className="text-nowrap cursor-pointer">
+            <p className="text-sm">My blog posts</p>
+          </div>
         </div>
+      </a> */}
+
+        <a href="https://www.youtube.com/@Enny_alt" target="_blank">
+          <div className="custom-shadow bg-white border border-white/40 px-3 py-3 my-8 rounded-md flex gap-4">
+            <div>
+              <RiYoutubeFill className="text-red-500"/>
+            </div>
+            <div className="text-nowrap cursor-pointer">
+
+              <p className="text-sm text-black">My Youtube Channel</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );
